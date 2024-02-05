@@ -1,0 +1,23 @@
+{
+  "name": "extract-from-docx",
+  "version": "1.0.1",
+  "description": "extract text from docx files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnavgaur04/extract-from-docx.git"
+  },
+  "keywords": [
+    "docx",
+    "extract"
+  ],
+  "author": "arnavgaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnavgaur04/extract-from-docx/issues"
+  },
+  "homepage": "https://github.com/arnavgaur04/extract-from-docx#readme"
+}
