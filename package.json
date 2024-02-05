@@ -1,6 +1,6 @@
 {
   "name": "extract-from-docx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "extract text from docx files",
   "main": "index.js",
   "scripts": {
