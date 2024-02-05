@@ -26,7 +26,7 @@ var documentXML;
 
 // Function for returning text in line by line format from .docx
 
-async function getText(docxFilePath) {
+async function extractText(docxFilePath) {
 return readXmlFromDocx(docxFilePath)
     .then(xmlContents => {
         var arr = [];
@@ -45,7 +45,7 @@ return readXmlFromDocx(docxFilePath)
 }
 
 // Function for extracting tables from .docx. It returns a promise in the form of Object.
-async function getTableData(docxFilePath) {
+async function extractTables(docxFilePath) {
     return readXmlFromDocx(docxFilePath)
     .then(xmlContents => {
         var dicTable = {};
