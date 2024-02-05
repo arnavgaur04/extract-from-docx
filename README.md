@@ -6,25 +6,27 @@ Extracts text and table data from .docx files and returns a Promise in the form 
 
 **You can install extract-from-docx via npm or yarn:**
 
-1. **Node**
+- **Node**
 
     ```bash
     npm install extract-from-docx
 
-2. **Yarn**
+- **Yarn**
 
     ```bash
     yarn add extract-from-docx
 
 ## Usage
 
+- Below is an example of usage of package.
+
     ```bash
     const { extractText, extractTables } = require('extract-from-docx');
 
-    // Specify the path to the .docx file
+    # Specify the path to the .docx file
     const docxFilePath = 'path/to/your/document.docx';
 
-    // Extract text from the document
+    # Extract text from the document
     extractText(docxFilePath)
     .then(text => {
         console.log('Extracted Text:', text);
@@ -33,7 +35,7 @@ Extracts text and table data from .docx files and returns a Promise in the form 
         console.error('Error extracting text:', error);
     });
 
-    // Extract tables from the document
+    # Extract tables from the document
     extractTables(docxFilePath)
     .then(tables => {
         console.log('Extracted Tables:', tables);
