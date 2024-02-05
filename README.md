@@ -18,7 +18,7 @@ Extracts text and table data from .docx files and returns a Promise in the form 
 
 ## Usage
 
-    ```javascript
+    ```bash
     const { extractText, extractTables } = require('extract-from-docx');
 
     // Specify the path to the .docx file
