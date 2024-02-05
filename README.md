@@ -6,13 +6,15 @@ Extracts text and table data from .docx files and returns a Promise in the form 
 
 **You can install extract-from-docx via npm or yarn:**
 
+**Node**
     ```bash
     npm install extract-from-docx
 
+**Yarn**
     ```bash
-        yarn add extract-from-docx
+    yarn add extract-from-docx
 
-**Usage**
+## Usage
 
     ```javascript
     const { extractText, extractTables } = require('extract-from-docx');
