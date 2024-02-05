@@ -72,4 +72,4 @@ async function extractTables(docxFilePath) {
 }
 
 
-
+module.exports = {extractTables, extractText};
